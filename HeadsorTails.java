@@ -1,4 +1,5 @@
 import java.util.Random;
+import java.util.Scanner;
 
 class HeadsorTails{
     public static void main(String[] args){
@@ -6,6 +7,10 @@ class HeadsorTails{
 	int countH, countT;
 	countH = 0;
 	countT = 0;
+	Scanner scan = new Scanner(System.in);
+	System.out.println("Who are you ?");
+	String name = scan.next();
+	System.out.println("Hello, "+name);
 	
  System.out.println("Tossing a coin...");
  
